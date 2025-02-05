@@ -8,7 +8,7 @@ A docker image for the [MongoDB Shell](https://github.com/mongodb-js/mongosh).
 
 **Note:** Built on mongosh 2.3.8
 
-## Using
+## Usage
 
 Pull the docker image.
 
@@ -22,12 +22,6 @@ Bash:
 
 ```sh
 alias mongosh='docker run -it --rm --network host -v $(pwd):/root mongosh:latest'
-```
-
-Fish:
-
-```fish
-alias mongosh 'docker run -it --rm --network host -v (pwd):/root mongosh:latest'
 ```
 
 And finally, run it as you typically would.
